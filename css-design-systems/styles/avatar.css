@@ -1,0 +1,32 @@
+.avatar {
+    width: 48px;
+    height: 48px;
+   /* background-color: red;*/
+   
+    
+}
+
+.avatar img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.avatar--lg {
+    width: 48px;
+    height: 48px;
+    /* background-color: red;*/
+}
+
+.avatar--md{
+    width: 32px;
+    height: 32px;
+     /* background-color: red;*/
+
+}
+
+.avatar--sm {
+    width: 24px;
+    height: 24px;
+    /* background-color: red;*/
+
+}
