@@ -1,0 +1,135 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    background-color: aqua;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.card .card-wraper-top {
+    color: #ffff
+
+}
+
+.card .shoe img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 35%;
+    left: 10%
+    
+
+}
+
+.card-wraper-top {
+    display: flex;
+    height: 80%;
+    background-color: red;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: rgb(255,190,1);
+    background: linear-gradient(237deg, rgba(255,190,1,1) 0%, rgba(253,99,45,1) 100%);
+    
+}
+
+.card-wraper-bottom {
+    display: flex;
+    align-items: center;
+    flex-shrink: 3;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+h2 {
+    padding: 0px 0px 10px 10px;
+    font-weight: 500;
+}
+
+p {
+    padding: 0px 10px 0px 10px;
+    font-size: small;
+    line-height: 1.5;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.header-logo img{
+    height: 15px;;
+    width: auto;
+
+
+}
+
+.header-price {
+   
+ 
+}
+
+.footer, span {
+    position: relative;
+    font-size: 200px;
+    font-weight: 550;
+    letter-spacing: 15px;
+    bottom: 10px;
+    opacity: 0.6;
+    overflow: hidden;
+}
+
+span 
+
+.card, h3 {
+   display: flex;
+   justify-content: end;
+   color: rgb(176, 176, 176);
+   font-size: small;
+   font-weight: 500;
+   letter-spacing: 6px;
+   margin: 2%;
+   
+}
+
+.btn{
+    margin-top: 10%;
+}
+.button{
+    background-color: #ffffff;
+    border: 2px solid #a600ff;
+    border-radius: 30px;
+    color: #a600ff;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: rgb(255, 255, 255);
+    background-color: #a600ff;
+    transition: 0.9s;
+
+}

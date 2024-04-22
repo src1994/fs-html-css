@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="styles/globals.css" />
 		<link rel="stylesheet" href="styles/avatar.css" />
 		<link rel="stylesheet" href="styles/button.css" />
+		<link rel="stylesheet" href="styles/input.css" />
 
 	</head>
 	<body>
@@ -38,14 +39,49 @@
 			<div class="wrapper__content">
 				<div class="flex">
 					<!-- Conteúdo aqui -->
-						<button type="button" class="btn btn--blue">
-							Label
+					<!-- azul -->
+					<div class="container-button">
+						<button type="button" class="btn btn--blue"> Label </button>
+						<button type="button" class="btn btn--blue" disabled> Label </button>
+						<button type="button" class="btn btn--blue"> Label <i data-feather="zap"></i></button>
+						<button type="button" class="btn btn--blue" disabled> Label <i data-feather="zap"></i></button>
+						<button type="button" class="btn btn--blue"><i data-feather="zap"></i> Label</button>
+						<button type="button" class="btn btn--blue" disabled> <i data-feather="zap"></i>Label </button>
+					</div>
+						<!-- branco -->
+					<div class="container-button">
+						<button type="button" class="btn btn--white"> Label </button>
+						<button class="btn--blue" disabled>
+							Dis
 						</button>
-						<button type="button" class="btn btn--blue">
-							Label
+						<button type="button" class="btn btn--white"> Label <i data-feather="zap"></i></button>
+							
 						</button>
-						<button type="button" class="btn btn--blue">
-							Label
+						<button type="button" class="btn btn--white"> Label <i data-feather="zap"></i></button>
+						
+						</button>
+						<!-- vermelho -->
+						<button type="button" class="btn btn--red"> Label </button>
+						<button class="btn--blue" disabled>
+							Disabled button
+						</button>
+						<button type="button" class="btn btn--red"> Label <i data-feather="zap"></i></button>
+							
+						</button>
+						<button type="button" class="btn btn--red"> Label <i data-feather="zap"></i></button>
+						
+						</button>
+					</div>
+							<!-- verde -->
+						<button type="button" class="btn btn--green"> Label </button>
+						<button class="btn--green" disabled>
+							Disabled button
+						</button>
+						<button type="button" class="btn btn--green"> Label <i data-feather="zap"></i></button>
+							
+						</button>
+						<button type="button" class="btn btn--green"> Label <i data-feather="zap"></i></button>
+						
 						</button>
 				</div>
 			</div>
@@ -56,7 +92,30 @@
 			<div class="wrapper__content">
 				<div class="flex">
 					<!-- Conteúdo aqui -->
-				</div>
+					<form>
+						<div class="form-container">
+							<label for="text">Field Label</label>
+							<input type="text" placeholder="placeholder">
+						</div>
+						<div class="form-container">
+							<input type="text" placeholder="placeholder">
+						</div>
+						<div class="form-container">
+							<input type="text" placeholder="placeholder" disabled>
+						</div>
+					</form>
+					<form>
+						<div class="form-container">
+							<label for="text">Field Label</label>
+							<input type="text" placeholder="placeholder">
+						</div>
+						<div class="form-container">
+							<input type="text" placeholder="placeholder">
+						</div>
+						<div class="form-container">
+							<input type="text" placeholder="placeholder" disabled>
+						</div>
+					</form>
 			</div>
 		</div>
 	</body>

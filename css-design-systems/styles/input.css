@@ -1,0 +1,37 @@
+
+.flex .form-container{
+    display: block;
+    flex-direction: column;
+}
+.form-container {
+    display: inline-block;
+    flex-direction: column;
+}
+
+input, label {
+    display: block;
+    padding: 0px 0px 10px 0px;
+}
+
+input {
+    border: none;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin-bottom: 3em;
+}
+
+input:focus {
+    box-shadow: 0 0 1px 1px #1589EE;
+    border: none;
+    outline: none;
+}
+
+input[type='text']{
+   padding-top: 10px;
+   padding-left: 10px;
+  }
+
+input:disabled {
+    background-color: #DDDBDA;
+}
+

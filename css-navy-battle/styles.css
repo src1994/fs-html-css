@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+
+html,
+body {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 16px;
+    background: rgba(10, 10, 10, 1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
+
+.board {
+    position: relative;
+    border: 1px solid rgba(50, 50, 50, 1);
+    background: rgba(20, 20, 20, 1);
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    overflow: hidden;
+   
+}
+
+.cell {
+    border: 0.5px dashed rgba(50, 50, 50, 1);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.target {
+    background-color: rgb(94, 94, 94);
+   
+}
+.ball {
+    width: 20px;
+    height: 20px;
+    background: rgb(87, 64, 236);
+    position: absolute;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+pre {
+    display: inline;
+}
+
+
+
+/* Coloca o teu CSS a partir daqui */
+.ball-0 {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    left: 50%;
+    top: 70%;
+    
+}
+
+.ball-1 {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    left: 80%;
+    top: 60%;
+}
+
+.ball-2 {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    left: 90%;
+    top: 10%;
+}
+
+.ball-3 {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    left: 40%;
+    top: 30%;
+}
+
+.ball-4 {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    left: 10%;
+    top: 40%;
+}
+
+.ball-5 {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    left: 80%;
+    top: 70%;
+}
+
+.ball-6 {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    left: 60%;
+    top: 70%;
+}
+
+.ball-7 {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    left: 60%;
+    top: 10%;
+}
+
+.ball-8 {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    left: 10%;
+    top: 90%;
+}
+
+.ball-9 {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    left: 50%;
+    top: 10%;
+}
+
+.ball-10 {
+    position: absolute;
+    display: flex;
+    align-self: end;
+    left: 50%;
+    top: 30%;
+}
