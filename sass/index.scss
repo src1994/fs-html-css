@@ -1,0 +1,9 @@
+// Variaveis
+$bg-red: red;
+$columns: 12;
+
+button {
+    $bg-red: blue;
+    background: $bg-red;
+}
+

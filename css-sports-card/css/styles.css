@@ -3,8 +3,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: rgb(253,29,190);
+    background: linear-gradient(90deg, rgba(253,29,190,1) 0%, rgba(150,69,252,1) 100%);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
   

@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    font-family: 'inter', sans-serif;
+    --page-background: #e57474;
+    --elements-background: rgb(126 86 255);
+    --background: gainsboro;
+
+
+}
+
+body {
+    margin: 0px;
+    padding: 80px 30px 100px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--page-background);
+    color: white;
+
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin:auto;
+    padding:70px 0;
+
+}
+
+.container p {
+    opacity: .5;
+    color: var(--background);
+  
+}
+
+.square {
+    width: 100px;
+    height: 50px;
+    background: var(--elements-background);
+    transform: skew(-45deg, 0deg) translate(10px, 10px);
+    border-radius: 4px;
+    animation-name: translate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+
+@keyframes translate {
+    to {
+        transform: skew(-45deg, 0deg) translate(-20px, -20px);
+        box-shadow: 20px 19px 16px 7px #4801016b;
+    }
+}
+    /*transform: skew(-45deg);
+    border-radius: 4px;
+    animation: mymove 2s infinite;
+    transition-timing-function: easy-out;
+
+}
+
+@keyframes mymove {
+
+    20% {box-shadow: 20px 20px 30px #4801016b;}
+}
+*/
+
+/* Progress */
+.progress {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap:2%;
+
+
+}
+.bar {
+    display: flex;
+    width: 25%;
+    height: 8px;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bar::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color:var(--elements-background);
+    animation: fill 2s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes fill {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.bar:nth-child(1):after {
+    animation-delay: 0s;
+}
+
+.bar:nth-child(2):after {
+    animation-delay: 2s;
+}
+
+.bar:nth-child(3):after {
+    animation-delay: 4s;
+}
+.bar:nth-child(4):after {
+    animation-delay: 6s;
+}
+
+/*loading*/
+
+:root {
+    --transformpositive: 15px;
+    --transformnegative: -15px;
+}
+.balls {
+    width: 50px;
+    height: 50px;
+    /*background-color: red; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotate; 
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.ball {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--elements-background);
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+
+}
+
+.balls .ball:nth-child(1) {
+    transform: translate(var(--transformnegative), var(--transformnegative))
+}
+
+.balls .ball:nth-child(2) {
+    transform: translate(var(--transformpositive), var(--transformnegative))
+}
+
+.balls .ball:nth-child(3) {
+    transform: translate(var(--transformnegative), var(--transformpositive))
+}
+
+.balls .ball:nth-child(4) {
+    transform: translate(var(--transformpositive), var(--transformpositive));
+}
+
+
+@keyframes move {
+    to{
+        transform: translate(0, 0);
+    } 
+}
+
+/* Appear */
+
+:root {
+    --speed-text: .5s;
+}
+
+.letters {
+    display: flex;
+    gap: 12px;
+    font-size: 40px;
+    font-weight: 750;
+}
+
+.character {
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+    @keyframes appear {
+        0% {
+            opacity: 0;
+            transform: translate(0,0);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translate(0,20px);
+        }
+        
+    }
+    
+    .character:nth-child(1) {
+        animation-delay: calc(var(--speed-text)*1);
+    }
+
+    .character:nth-child(2) {
+        animation-delay: calc(var(--speed-text)*2);
+    }
+
+    .character:nth-child(3) {
+        animation-delay: calc(var(--speed-text)*3);
+    }
+
+    .character:nth-child(4) {
+        animation-delay: calc(var(--speed-text)*4);
+    }
+
+    .character:nth-child(5) {
+        animation-delay: calc(var(--speed-text)*5);
+    }
+
+    .character:nth-child(6) {
+        animation-delay: calc(var(--speed-text)*6);
+    }
+
+/*pause me while you can */
+:root {
+    --box-size: 60px;
+  }
+  
+  .container-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+  }
+
+ 
+  
+  .box {
+    display: flex;
+    position: absolute;
+    left: 0;
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--elements-background);
+    animation-name: go;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  .box:hover {
+    animation-play-state: paused;
+  }
+ 
+  
+  @keyframes go {
+    to {
+      left: calc(100% - var(--box-size));
+    }
+  }
