@@ -1,100 +1,43 @@
-.container-button {
-    display: block;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.buttons--group {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
 
 button {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    height: 32px;
-    border-radius: 2px;
+    padding: 12px 16px;
+    justify-content: center;
+    height: 40px;
+    border-radius: 4px;
     border: none;
+    text-align: center;
+    font-size: 16px;
+
 }
 
-.feather {
-    width: 10px;
-    height: 10px;
-    fill: white;
+
+
+ i, .feather {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    
 }
 /* Botão azul */
-
 .btn--blue {
     background-color: #0070D2;
     color: white;
 }
 
-.btn--blue:hover {
-    background-color: #005FB2;
-   
-}
+.btn--blue {
 
-.btn--blue:focus {
-    box-shadow: 0 0 1px 1px #0070D2;
-}
-
-.btn--blue:disabled,
-.btn--blue[disabled] {
-  background-color: #C9C7C5;
-  color: white;
-}
-
-/* botão branco */
-.btn--white .feather {
-    fill: #0070D2;
-}
-
-.btn--white {
-    background-color: #FFFFFF;
-    color: #0070D2;
-    border: 1px solid #0070D2;
-    
-}
-
-.btn--white:hover {
-    background-color: #F4F6F9;
-   
-}
-
-.btn:focus {
-    box-shadow: 0 0 1px 1px #0070D2;
-}
-
-/* botões vermelhos*/
-
-.btn--red {
-    background-color: #C23934;
-    color: rgb(255, 255, 255);
-    
-}
-
-.btn--red:hover {
-    background-color: #A61A14;
-   
-}
-
-.btn--red:focus {
-    box-shadow: 0 0 1px 1px #0070D2;
-}
-
-/* botões verdes*/
-
-.btn--green {
-    background-color: #4BCA81;
-    color: #080707;
-    
-}
-
-.btn--green .feather {
-    fill: #080707;
-}
-
-
-.btn--green:hover {
-    background-color: #04844B;
-    color: white;
-   
-}
-
-.btn--green:focus {
-    box-shadow: 0 0 1px 1px #0070D2;
 }
