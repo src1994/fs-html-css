@@ -56,7 +56,6 @@ header p {
 }
 
 .container-section{
-    position: relative;
     display: flex;
     flex-direction: column;
     height: 370px;
@@ -64,9 +63,11 @@ header p {
 }
 
 nav {
+    position: relative;
     display: flex;
     padding-bottom: 40px;
     padding-left: 7%;
+    padding-right: 7%;
     justify-content: flex-start;
     
 }
@@ -91,11 +92,11 @@ nav ul li a{
     font-weight: 600;
  }
 
- .view-more {
-    font-size: 16px;
-    font-weight: 600;
+ nav .view-more {
     position: absolute;
     right: 7%;
+    font-size: 16px;
+    font-weight: 600;
     color:var(--text-color-yellow);
  }
 
@@ -164,6 +165,17 @@ nav .view-more {
 
 @media (max-width: 768px) {
 
+body {
+        display: flex;
+        flex-direction: column;
+    }
+
+section {
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+ }
+
 header {
     padding: 10px;
 
@@ -185,23 +197,16 @@ nav {
     display: flex;
     padding-top: 6%;
     padding-bottom: 20%;
-    justify-content: center;   
+    justify-content: center;  
+    color: var(--text-color-yellow); 
 } 
 
 .bottom-nav .view-more {
     display: flex;
+    font-size: 16px;
+    font-weight: 600;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-section {
-    flex-direction: column;
-    padding: 10px;
-    justify-content: center;
-}
 
 article {
     width: 100%;
