@@ -1,7 +1,12 @@
-
-.container {
+.flex-column {
     display: flex;
     flex-direction: column;
+    gap:80px;
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: column;    
     gap:40px;
 }
 
@@ -13,6 +18,7 @@
 
 button {
     display: flex;
+    gap:12px;
     align-items: center;
     padding: 12px 16px;
     justify-content: center;
@@ -24,20 +30,124 @@ button {
 
 }
 
-
-
  i, .feather {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: auto;
     align-items: center;
     
 }
-/* Botão azul */
+
+
+/* Botão blue */
+.btn--blue .feather{
+    fill: var(--white);
+}
+
 .btn--blue {
-    background-color: #0070D2;
+    background-color: var(--primary);
     color: white;
 }
 
-.btn--blue {
-
+.btn--blue:hover {
+    background-color: var(--primary-10);
 }
+
+.btn--blue:focus {
+    box-shadow: 0 0 2px 2px var(--primary);
+}
+
+.btn--blue:disabled {
+    background-color: var(--silver);
+    color:white;
+    cursor: not-allowed;
+}
+
+/* Botão white */ 
+
+.btn--white .feather{
+    fill: var(--primary);
+}
+
+.btn--white {
+    background-color: var(--white);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn--white:hover {
+    background-color: var(--neutral);
+}
+
+.btn--white:focus {
+    box-shadow: 0 0 2px 2px var(--primary);
+    background-color: var(--neutral);
+}
+
+.btn--white:disabled .feather{
+    fill: #DDDBDA;
+}
+.btn--white:disabled {
+    background-color: var();
+    color:#DDDBDA; 
+    border: none;
+    cursor: not-allowed;    
+}
+
+
+
+
+/* red */ 
+.btn--red .feather {
+    fill: var(--white);
+}
+
+.btn--red {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.btn--red:hover {
+    background-color: var(--red-10);
+}
+
+.btn--red:focus {
+    box-shadow: 0 0 2px 2px var(--primary);
+}
+
+.btn--red:disabled {
+    background-color: var(--silver);
+    color:white;
+    cursor: not-allowed;
+}
+
+/* green */
+.btn--green .feather {
+    fill: #080707;
+}
+.btn--green {
+    background-color: var(--green);
+    color: #080707;
+}
+
+.btn--green:hover {
+    color: var(--white);
+    background-color: var(--green-10);
+}
+.btn--green:hover .feather{
+    fill: var(--white);
+}
+
+.btn--green:focus {
+    box-shadow: 0 0 2px 2px var(--primary);
+}
+
+.btn--green:disabled {
+    background-color: var(--silver);
+    color:white;
+    cursor: not-allowed;
+}
+
+.btn--green:disabled .feather {
+    fill:var(--white);
+}
+

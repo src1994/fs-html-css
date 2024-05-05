@@ -8,6 +8,9 @@
     --red-10: #A61A14;
     --green: #4BCA81;
     --green-10: #04844B;
+    --silver: #C9C7C5;
+    --white: #ffff;
+
 }
 
 html,
@@ -29,7 +32,6 @@ body {
 .flex {
     display: flex;
     flex-wrap: wrap;
-
     margin: 32px 0;
     gap: 24px;
 }

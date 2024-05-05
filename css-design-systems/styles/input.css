@@ -1,10 +1,7 @@
 
-.flex .form-container{
-    display: block;
-    flex-direction: column;
-}
-.form-container {
-    display: inline-block;
+
+.form-container{
+    display: flex;
     flex-direction: column;
 }
 
