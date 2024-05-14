@@ -1,6 +1,7 @@
 
 
 .form-container{
+    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -31,4 +32,21 @@ input[type='text']{
 input:disabled {
     background-color: #DDDBDA;
 }
+
+.icon-left{
+    position: absolute;
+    left: 0;
+    right:0;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-label{
+    color: red;
+    padding-top: 0px;
+}
+
 
