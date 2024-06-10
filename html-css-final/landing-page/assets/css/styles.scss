@@ -1,0 +1,31 @@
+header {
+    width: 100%;
+    .headerDesktop-container {
+        display: flex;
+        align-items: center;
+        border-bottom: solid 1px red;
+    }
+    .headerDesktop_middle {
+        display: flex;
+        flex-direction: row;
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            gap: 20px;
+           
+            li {
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+    .headerDesktop_sign {
+        display: inline-flex;
+        justify-content: center;
+        position: fixed;
+        right: 0;
+    }
+}
