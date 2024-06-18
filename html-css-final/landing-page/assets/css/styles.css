@@ -3,16 +3,18 @@ body {
   max-width: 100vw;
   padding: 0px;
   margin: 0px;
-  font-family: "inner", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 header {
   width: 100%;
+  height: 64px;
 }
 header .headerDesktop-container {
   display: flex;
   align-items: center;
-  border-bottom: solid 1px red;
+  border-bottom: solid 1px #DFDFDF;
+  padding: 8px 16px 8px 16px;
 }
 header .headerDesktop-middle {
   display: flex;
@@ -33,4 +35,5 @@ header .headerDesktop-sign {
   position: fixed;
   right: 0;
   gap: 20px;
+  padding: 8px 16px 8px 16px;
 }/*# sourceMappingURL=styles.css.map */
