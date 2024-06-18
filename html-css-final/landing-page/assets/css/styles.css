@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  max-width: 100vw;
+  padding: 0px;
+  margin: 0px;
+  font-family: "inner", sans-serif;
+}
+
 header {
   width: 100%;
 }
@@ -6,20 +14,20 @@ header .headerDesktop-container {
   align-items: center;
   border-bottom: solid 1px red;
 }
-header .headerDesktop_middle {
+header .headerDesktop-middle {
   display: flex;
   flex-direction: row;
 }
-header .headerDesktop_middle ul {
+header .headerDesktop-middle ul {
   display: flex;
   flex-direction: row;
   list-style: none;
   gap: 20px;
 }
-header .headerDesktop_middle ul li a {
+header .headerDesktop-middle ul li a {
   text-decoration: none;
 }
-header .headerDesktop_sign {
+header .headerDesktop-sign {
   display: inline-flex;
   justify-content: center;
   position: fixed;
