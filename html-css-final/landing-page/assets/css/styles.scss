@@ -45,13 +45,21 @@ header {
 
 .hero-section {
     text-align: center;
+    h1 {
+
+    }
+    p {
+        padding: 0 16%;
+    }
     .hero-video{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 4%;
-
+        padding-top: 3%;
        
     }
+}
+.about-section {
+    text-align: center;
 }
 
