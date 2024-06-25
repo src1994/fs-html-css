@@ -55,6 +55,19 @@ header .headerDesktop-sign {
   text-align: center;
 }
 
+.advertising-section {
+  display: flex;
+  justify-content: center;
+}
+.advertising-section .advertising-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 202px;
+  background-color: blue;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
