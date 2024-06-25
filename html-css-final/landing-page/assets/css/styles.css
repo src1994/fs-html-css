@@ -53,4 +53,17 @@ header .headerDesktop-sign {
 
 .about-section {
   text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+footer .footer-middle-left {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-middle-rigth {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=styles.css.map */

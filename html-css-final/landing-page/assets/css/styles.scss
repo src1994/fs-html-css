@@ -63,3 +63,18 @@ header {
     text-align: center;
 }
 
+footer {
+    display: flex;
+    justify-content: space-around;
+
+    .footer-middle-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-middle-rigth {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
