@@ -28,21 +28,40 @@ header .headerDesktop-middle ul {
 }
 header .headerDesktop-middle ul li a {
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
 }
-header .headerDesktop-sign {
+header .headerDesktop-links {
   display: inline-flex;
   justify-content: center;
-  position: fixed;
   right: 0;
   gap: 20px;
   padding: 8px 16px 8px 16px;
+  margin-left: auto;
 }
 
 .hero-section {
   text-align: center;
 }
+.hero-section .hero-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section h1 {
+  width: 60%;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  margin: 0;
+}
 .hero-section p {
-  padding: 0 16%;
+  width: 50%;
+  text-align: center;
+  padding: 0 2%;
+  font-size: 24px;
+  font-weight: 400;
 }
 .hero-section .hero-video {
   display: flex;
