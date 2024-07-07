@@ -38,6 +38,18 @@ header {
         }
 
     }
+
+    .btn {
+        text-decoration: none;
+        width: auto;
+        padding: 8px 16px 8px 16px;
+       
+    }
+    .btn-signup{
+        color: white;
+        background-color: #000000;
+    }
+    
     .headerDesktop-links {
         display: inline-flex;
         justify-content: center;
@@ -45,6 +57,11 @@ header {
         gap: 20px;
         padding: 8px 16px 8px 16px;
         margin-left: auto;
+        .btn-signin {
+            text-decoration: none;
+            color: #000000
+        }
+
     }
 }
 
