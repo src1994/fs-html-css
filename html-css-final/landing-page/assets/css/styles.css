@@ -107,6 +107,36 @@ header .headerDesktop-links {
   flex-direction: row;
   justify-content: center;
 }
+.cards-section .card {
+  box-sizing: content-box;
+  height: 119px;
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: #DFDFDF;
+}
+.cards-section .card .circle {
+  width: 25%;
+  height: 34%;
+  background-color: blue;
+  border-radius: 50%;
+}
+.cards-section .card h4 {
+  font-size: 14px;
+  font-weight: 400px;
+  margin: 0px;
+  padding: 8px;
+}
+.cards-section .card p {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400px;
+  line-height: 15px;
+}
+
 .advertising-section {
   display: flex;
   justify-content: center;
