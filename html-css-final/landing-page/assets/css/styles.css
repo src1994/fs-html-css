@@ -68,6 +68,11 @@ header .headerDesktop-links {
   margin-left: auto;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+}
+
 .hero-section {
   text-align: center;
 }
@@ -102,25 +107,35 @@ header .headerDesktop-links {
   text-align: center;
 }
 
-.cards-section {
+.section-container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  flex-direction: column;
+}
+
+.cards-section {
+  width: 539px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .cards-section .card {
   box-sizing: content-box;
-  height: 119px;
-  width: 145px;
+  height: 169px;
+  width: 143px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #FFFFFF;
-  border: #DFDFDF;
+  border: 1px solid #DFDFDF;
+  border-radius: 4px;
 }
 .cards-section .card .circle {
-  width: 25%;
-  height: 34%;
+  width: 44px;
+  height: 44px;
   background-color: blue;
   border-radius: 50%;
 }
