@@ -113,6 +113,15 @@ section {
   flex-direction: column;
 }
 
+.cards-section-container {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
 .cards-section {
   width: 539px;
   display: flex;
