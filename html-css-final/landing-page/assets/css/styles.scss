@@ -161,6 +161,58 @@ section{
     }
 }
 
+.articles-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .article-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .article-body {
+      display: flex;
+      flex-wrap: wrap;
+      width: 935px;
+      gap: 10px;
+  
+      .wrapper-box {
+        display: flex;
+        flex-direction: column;
+        width: 218px;
+        height: auto;
+       
+  
+        .wrapper-box-img {
+          width: 218px;
+          height: 121px;
+          background-color: silver;
+        }
+        .wrapper-box-text{
+            text-align: left;
+            font-size: 10px;
+            line-height: 15px;
+        }
+        .wrapper-box-user{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            .user-circle{
+                width: 20px;
+                height: 20px;
+                border-radius: 13px;
+                background-color: silver;
+            }
+        }
+      }
+    }
+  }
+
 footer {
     display: flex;
     justify-content: space-around;
