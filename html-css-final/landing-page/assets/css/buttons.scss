@@ -2,7 +2,12 @@
     text-decoration: none;
     width: auto;
     padding: 8px 16px 8px 16px;
+
 }
+.btn-round {
+    border-radius: 19px;
+}
+
 .btn-signup{
     color: white;
     background-color: #000000;
@@ -21,4 +26,71 @@
 .btn-signin {
     text-decoration: none;
     color: #000000
+}
+// botoes articles header
+.btn-development {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    border: 0.5px solid #ECEBEB; 
+}
+.btn-blockchain {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    border: 0.5px solid #ECEBEB; 
+}
+
+.btn-nextjs {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    border: 0.5px solid #ECEBEB; 
+}
+
+.btn-reactjs {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    border: 0.5px solid #ECEBEB; 
+}
+
+
+// botõews cartões
+.btn-development-secundary {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 18px;
+    font-size: 8px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    border: 0.5px solid #ECEBEB;
+}
+
+.btn-blockchain-secundary {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 18px;
+    font-size: 8px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    border: 0.5px solid #ECEBEB;
 }

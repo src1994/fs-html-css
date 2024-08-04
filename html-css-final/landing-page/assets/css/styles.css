@@ -1,31 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-.btn {
-  text-decoration: none;
-  width: auto;
-  padding: 8px 16px 8px 16px;
-}
-
-.btn-signup {
-  color: white;
-  background-color: #000000;
-}
-
-.btn-trial {
-  color: white;
-  background-color: #0064DA;
-  border: none;
-}
-
-.btn-learnmore {
-  color: white;
-  background-color: #0064DA;
-}
-
-.btn-signin {
-  text-decoration: none;
-  color: #000000;
-}
-
+@import "./buttons.css";
 body {
   max-width: 100vw;
   padding: 0px;
@@ -179,29 +153,40 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5%;
 }
 .articles-section .article-header {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 3%;
+}
+.articles-section .article-header .articles-header-buttons {
+  display: flex;
+  gap: 12px;
 }
 .articles-section .article-body {
   display: flex;
   flex-wrap: wrap;
   width: 935px;
-  gap: 10px;
+  gap: 20px;
 }
 .articles-section .article-body .wrapper-box {
   display: flex;
   flex-direction: column;
   width: 218px;
   height: auto;
+  gap: 12px;
 }
 .articles-section .article-body .wrapper-box .wrapper-box-img {
   width: 218px;
   height: 121px;
   background-color: silver;
+}
+.articles-section .article-body .wrapper-box .wrapper-box-buttons {
+  display: flex;
+  flex-direction: row;
 }
 .articles-section .article-body .wrapper-box .wrapper-box-text {
   text-align: left;
