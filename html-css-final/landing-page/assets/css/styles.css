@@ -220,6 +220,10 @@ section {
   border-radius: 13px;
   background-color: silver;
 }
+.articles-section .article-body .wrapper-box .wrapper-box-user h6 {
+  font-size: 8px;
+  font-weight: 400;
+}
 
 footer {
   display: flex;
