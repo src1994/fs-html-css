@@ -147,20 +147,6 @@ section{
       }
   }
 
-.advertising-section{
-    display: flex;
-    justify-content: center;
-    .advertising-section-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 80%;
-        height: 202px;
-        background-color: blue;
-
-    }
-}
-
 .articles-section {
     display: flex;
     flex-direction: column;
@@ -227,6 +213,28 @@ section{
       }
     }
   }
+
+  .advertising-section{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    .advertising-section-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        width: 80%;
+        height: 202px;
+        background-color: #0064DA;
+        padding-left: 3%;
+        padding-right: 3%;
+        p{
+            font-size: 30px;
+            color: #FFFFFF;
+            font-weight: 400;
+        }
+    }
+}
 
 footer {
     display: flex;
