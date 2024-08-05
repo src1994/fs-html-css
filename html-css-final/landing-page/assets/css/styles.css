@@ -222,12 +222,53 @@ section {
 footer {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 2%;
+}
+footer .footer-left {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-left h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+footer .footer-left p {
+  font-size: 14px;
+  font-weight: 400;
 }
 footer .footer-middle-left {
   display: flex;
   flex-direction: column;
 }
+footer .footer-middle-left h1 {
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 20%;
+  font-weight: 400;
+}
+footer .footer-middle-left a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  font-weight: 400;
+}
 footer .footer-middle-rigth {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-middle-rigth h1 {
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 20%;
+  font-weight: 400;
+}
+footer .footer-middle-rigth a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  font-weight: 400;
+}
+footer .footer-rigth {
   display: flex;
   flex-direction: column;
 }/*# sourceMappingURL=styles.css.map */
