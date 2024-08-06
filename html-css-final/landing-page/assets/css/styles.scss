@@ -98,14 +98,33 @@ section{
 }
 .about-section {
     text-align: center;
-    padding-bottom: 3%;
+    background-color:#F5F5F5;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    .about-section-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 40px;
+            font-weight: 500;
+        }
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            text-align: center;
+            width: 50%;
+        }
+    }
+   
 }
 .section-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding-bottom: 5%;;
-
+    padding-top: 2%;
 }
 .cards-section-container{
     text-align: center;
