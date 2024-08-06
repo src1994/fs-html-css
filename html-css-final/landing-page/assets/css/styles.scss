@@ -125,9 +125,23 @@ section{
     flex-direction: column;
     padding-bottom: 5%;;
     padding-top: 2%;
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #220000 50%, #220000 100%);
 }
 .cards-section-container{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        width: 40%;
+    }
 }
 .card-container{
     display: flex;
