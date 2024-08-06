@@ -223,6 +223,8 @@ footer {
   display: flex;
   justify-content: space-around;
   padding-bottom: 2%;
+  padding-top: 1%;
+  border-top: solid 1px #DFDFDF;
 }
 footer .footer-left {
   display: flex;
