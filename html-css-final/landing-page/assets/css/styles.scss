@@ -156,7 +156,7 @@ section{
     gap: 10px;
     .card {
         box-sizing: content-box;
-        height: 169px;
+        height: 145px;
         width: 143px;
         display: flex;
         flex-direction: column;
@@ -174,15 +174,16 @@ section{
         }
         h4{
            font-size: 14px;
-           font-weight: 400px;
+           font-weight: 400;
            margin: 0px;
            padding: 8px;
         }
         p{
             text-align: center;
             font-size: 10px;
-            font-weight: 400px;
+            font-weight: 400;
             line-height: 15px;
+            margin: 0px;
             
         }
       }
