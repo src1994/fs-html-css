@@ -189,6 +189,20 @@ section {
   line-height: 15px;
   margin: 0px;
 }
+.cards-section .card:hover {
+  background-color: #0064DA;
+  border: 1px solid #0064DA;
+  transform: translateY(-5px);
+}
+.cards-section .card:hover .circle {
+  background-color: #FFFFFF;
+}
+.cards-section .card:hover h4 {
+  color: #FFFFFF;
+}
+.cards-section .card:hover p {
+  color: #FFFFFF;
+}
 
 .articles-section {
   display: flex;
