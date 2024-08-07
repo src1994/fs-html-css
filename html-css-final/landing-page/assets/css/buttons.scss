@@ -21,6 +21,18 @@
 .btn-learnmore{
     color: white;
     background-color: #0064DA;
+    border: none;
+}
+
+.btn-video {
+    position:absolute;
+    padding: 8px 16px;
+    background-color: #0064DA;
+    color: #FFFFFF;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    bottom: -5%;
 }
 
 .btn-signin {
