@@ -159,6 +159,9 @@ section {
   gap: 10px;
 }
 .cards-section .card {
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
   box-sizing: content-box;
   height: 145px;
   width: 143px;

@@ -171,6 +171,9 @@ section{
     align-items: center;
     gap: 10px;
     .card {
+        cursor: pointer;
+        color:#000000;
+        text-decoration: none;
         box-sizing: content-box;
         height: 145px;
         width: 143px;
