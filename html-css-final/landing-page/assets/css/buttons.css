@@ -2,6 +2,7 @@
   text-decoration: none;
   width: auto;
   padding: 8px 16px 8px 16px;
+  cursor: pointer;
 }
 
 .btn-round {
@@ -19,10 +20,26 @@
   border: none;
 }
 
+.btn-trial:hover {
+  background-color: #000000;
+}
+
+.btn-trial:focus {
+  background-color: #000000;
+}
+
 .btn-learnmore {
   color: white;
   background-color: #0064DA;
   border: none;
+}
+
+.btn-learnmore:hover {
+  background-color: #000000;
+}
+
+.btn-learnmore:focus {
+  background-color: #000000;
 }
 
 .btn-video {
@@ -52,6 +69,18 @@
   border: 0.5px solid #ECEBEB;
 }
 
+.btn-development:hover {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #ECEBEB;
+}
+
+.btn-development:focus {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #7B61FF;
+}
+
 .btn-blockchain {
   display: flex;
   align-items: center;
@@ -61,6 +90,18 @@
   font-weight: 400;
   background-color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+}
+
+.btn-blockchain:hover {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #ECEBEB;
+}
+
+.btn-blockchain:focus {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #7B61FF;
 }
 
 .btn-nextjs {
@@ -74,6 +115,18 @@
   border: 0.5px solid #ECEBEB;
 }
 
+.btn-nextjs:hover {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #ECEBEB;
+}
+
+.btn-nextjs:focus {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #7B61FF;
+}
+
 .btn-reactjs {
   display: flex;
   align-items: center;
@@ -83,6 +136,18 @@
   font-weight: 400;
   background-color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+}
+
+.btn-reactjs:hover {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #ECEBEB;
+}
+
+.btn-reactjs:focus {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #7B61FF;
 }
 
 .btn-development-secundary {
@@ -96,6 +161,18 @@
   border: 0.5px solid #ECEBEB;
 }
 
+.btn-development-secundary:hover {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #ECEBEB;
+}
+
+.btn-development-secundary:focus {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #7B61FF;
+}
+
 .btn-blockchain-secundary {
   display: flex;
   align-items: center;
@@ -105,6 +182,18 @@
   font-weight: 400;
   background-color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+}
+
+.btn-blockchain-secundary:hover {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #ECEBEB;
+}
+
+.btn-blockchain-secundary:focus {
+  background-color: #0064DA;
+  color: #FFFFFF;
+  border: 0.5px solid #7B61FF;
 }
 
 .btn-advertising {
@@ -118,4 +207,5 @@
   background-color: #FFFFFF;
   padding: 8px 16px 8px 16px;
   border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=buttons.css.map */

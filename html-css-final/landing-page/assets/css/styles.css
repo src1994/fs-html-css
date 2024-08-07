@@ -316,6 +316,7 @@ footer input[type=submit] {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: 400;
+  cursor: pointer;
 }
 footer .footer-middle-left {
   display: flex;
