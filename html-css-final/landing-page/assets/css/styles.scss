@@ -107,7 +107,7 @@ section{
     text-align: center;
     background-color:#F5F5F5;
     padding-top: 3%;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
     .about-section-container {
         display: flex;
         flex-direction: column;
@@ -132,7 +132,17 @@ section{
             text-align: center;
             width: 50%;
         }
+        .about-section-image{
+            display: flex;
+            img{
+                width: 632px;
+                height: auto;
+                box-shadow: 0px 2px 10px 2px #0514491A;
+
+            }
+        }
     }
+
    
 }
 .section-container{
