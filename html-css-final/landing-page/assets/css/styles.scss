@@ -403,5 +403,8 @@ footer {
     }
 }
 
-
-
+@media (max-width: 768px) {
+    .headerDesktop-middle ul {
+      visibility: hidden;
+    }
+  }

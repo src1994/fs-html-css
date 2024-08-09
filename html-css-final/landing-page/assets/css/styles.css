@@ -374,4 +374,10 @@ footer .footer-middle-rigth a {
 footer .footer-rigth {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .headerDesktop-middle ul {
+    visibility: hidden;
+  }
 }/*# sourceMappingURL=styles.css.map */
