@@ -393,6 +393,9 @@ footer .footer-rigth {
   .headerDesktop {
     width: 100%;
   }
+  .headerDesktop-container {
+    padding: 2px 0px 8px 10px;
+  }
   .headerDesktop-middle {
     overflow: hidden;
     visibility: hidden;
