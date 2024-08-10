@@ -40,7 +40,7 @@ header .headerDesktop-middle ul li a {
 header .headerDesktop-links {
   display: inline-flex;
   justify-content: center;
-  right: 0;
+  align-items: center;
   gap: 20px;
   padding: 8px 16px 8px 16px;
   margin-left: auto;
