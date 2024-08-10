@@ -21,7 +21,10 @@ header {
         border-bottom: solid 1px #DFDFDF;
         padding: 8px 16px 8px 16px;
     }
-
+    .headerDesktop-logo {
+        width: 27px;
+        height: auto;
+    }
     .headerDesktop-middle {
         display: flex;
         flex-direction: row;
@@ -418,8 +421,9 @@ footer {
     .headerDesktop{
         width: 100%;
     }
-    .headerDesktop-middle ul {
-      visibility: hidden;
+    .headerDesktop-middle {
+        overflow: hidden;
+        visibility: hidden;
     }
     //hero section 
     .hero-section {

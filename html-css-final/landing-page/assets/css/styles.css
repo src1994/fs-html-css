@@ -17,6 +17,10 @@ header .headerDesktop-container {
   border-bottom: solid 1px #DFDFDF;
   padding: 8px 16px 8px 16px;
 }
+header .headerDesktop-logo {
+  width: 27px;
+  height: auto;
+}
 header .headerDesktop-middle {
   display: flex;
   flex-direction: row;
@@ -389,7 +393,8 @@ footer .footer-rigth {
   .headerDesktop {
     width: 100%;
   }
-  .headerDesktop-middle ul {
+  .headerDesktop-middle {
+    overflow: hidden;
     visibility: hidden;
   }
   .hero-section {
