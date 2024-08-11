@@ -335,6 +335,8 @@ footer {
     justify-content: space-around;
     padding-bottom: 2%;
     padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
     border-top: solid 1px #DFDFDF;
     
     .footer-left{
@@ -373,7 +375,10 @@ footer {
         cursor: pointer;
         
       }
-
+    .footer-middle-container {
+        display:  flex;
+        gap: 200px;
+    }
     .footer-middle-left{
         display: flex;
         flex-direction: column;

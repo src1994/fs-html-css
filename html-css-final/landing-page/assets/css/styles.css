@@ -314,6 +314,8 @@ footer {
   justify-content: space-around;
   padding-bottom: 2%;
   padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
   border-top: solid 1px #DFDFDF;
 }
 footer .footer-left {
@@ -347,6 +349,10 @@ footer input[type=submit] {
   font-size: 14px;
   font-weight: 400;
   cursor: pointer;
+}
+footer .footer-middle-container {
+  display: flex;
+  gap: 200px;
 }
 footer .footer-middle-left {
   display: flex;
