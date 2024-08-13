@@ -12,6 +12,7 @@ $deep-silver: #C4C4C4;
 $tertiary-silver: #ECEBEB;
 $purple: #7B61FF;
 $brown: #220000;
+$button-dropshadow: #0000000D;
 
 .btn {
     text-decoration: none;
@@ -105,18 +106,23 @@ $brown: #220000;
     font-weight: 400;
     background-color: $white;
     border: 0.5px solid $tertiary-silver; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
+
+
 }
 .btn-development:hover {
     
     background-color: $blue;
     color: $white;
     border: 0.5px solid $tertiary-silver; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 .btn-development:focus {
     
     background-color: $blue;
     color: $white;
     border: 0.5px solid $purple; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 
 .btn-blockchain {
@@ -128,18 +134,21 @@ $brown: #220000;
     font-weight: 400;
     background-color: $white;
     border: 0.5px solid $tertiary-silver; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 .btn-blockchain:hover {
     
     background-color: $blue;
     color: $white;
     border: 0.5px solid $tertiary-silver; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 .btn-blockchain:focus {
     
     background-color: $blue;
     color: $white;
     border: 0.5px solid $purple; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 
 
@@ -152,6 +161,7 @@ $brown: #220000;
     font-weight: 400;
     background-color: $white;
     border: 0.5px solid $tertiary-silver; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 
 .btn-nextjs:hover {
@@ -159,11 +169,13 @@ $brown: #220000;
     background-color: $blue;
     color: $white;
     border: 0.5px solid $tertiary-silver; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 .btn-nextjs:focus {
     
     background-color: $blue;
     border: 0.5px solid $purple; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 
 
@@ -176,18 +188,21 @@ $brown: #220000;
     font-weight: 400;
     background-color: $white;
     border: 0.5px solid $tertiary-silver; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 .btn-reactjs:hover {
     
     background-color: $blue;
     color: $white;
     border: 0.5px solid $tertiary-silver; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 .btn-reactjs:focus {
     
     background-color: $blue;
     color: $white;
     border: 0.5px solid $purple; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 
 
@@ -201,18 +216,21 @@ $brown: #220000;
     font-weight: 400;
     background-color: $white;
     border: 0.5px solid $tertiary-silver;
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 .btn-development-secundary:hover {
     
     background-color: $blue;
     color: $white;
     border: 0.5px solid $tertiary-silver; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 .btn-development-secundary:focus {
     
     background-color: $blue;
     color: $white;
     border: 0.5px solid $purple; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 
 
@@ -225,18 +243,21 @@ $brown: #220000;
     font-weight: 400;
     background-color: $white;
     border: 0.5px solid $tertiary-silver;
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 .btn-blockchain-secundary:hover {
     
     background-color: $blue;
     color: $white;
     border: 0.5px solid $tertiary-silver; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 .btn-blockchain-secundary:focus {
     
     background-color: $blue;
     color: $white;
-    border: 0.5px solid $purple\; 
+    border: 0.5px solid $purple; 
+    box-shadow: 0px 1px 3px 0px $button-dropshadow;
 }
 
 // botão advertising section

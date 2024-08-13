@@ -90,18 +90,21 @@
   font-weight: 400;
   background-color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-development:hover {
   background-color: #0064DA;
   color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-development:focus {
   background-color: #0064DA;
   color: #FFFFFF;
   border: 0.5px solid #7B61FF;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-blockchain {
@@ -113,18 +116,21 @@
   font-weight: 400;
   background-color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-blockchain:hover {
   background-color: #0064DA;
   color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-blockchain:focus {
   background-color: #0064DA;
   color: #FFFFFF;
   border: 0.5px solid #7B61FF;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-nextjs {
@@ -136,18 +142,20 @@
   font-weight: 400;
   background-color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-nextjs:hover {
   background-color: #0064DA;
   color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-nextjs:focus {
   background-color: #0064DA;
-  color: #FFFFFF;
   border: 0.5px solid #7B61FF;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-reactjs {
@@ -159,18 +167,21 @@
   font-weight: 400;
   background-color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-reactjs:hover {
   background-color: #0064DA;
   color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-reactjs:focus {
   background-color: #0064DA;
   color: #FFFFFF;
   border: 0.5px solid #7B61FF;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-development-secundary {
@@ -182,18 +193,21 @@
   font-weight: 400;
   background-color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-development-secundary:hover {
   background-color: #0064DA;
   color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-development-secundary:focus {
   background-color: #0064DA;
   color: #FFFFFF;
   border: 0.5px solid #7B61FF;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-blockchain-secundary {
@@ -205,18 +219,21 @@
   font-weight: 400;
   background-color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-blockchain-secundary:hover {
   background-color: #0064DA;
   color: #FFFFFF;
   border: 0.5px solid #ECEBEB;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-blockchain-secundary:focus {
   background-color: #0064DA;
   color: #FFFFFF;
   border: 0.5px solid #7B61FF;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.0509803922);
 }
 
 .btn-advertising {
