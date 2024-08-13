@@ -1,3 +1,18 @@
+$blue: #0064DA;
+$baby-blue: #A5CEFF;
+$black: #000000;
+$white: #FFFFFF;
+$dropshadow: #051449;
+$dropshadow-secundary: #0514491A;
+$primary-silver: #F5F5F5;
+$silver-line: #B8B8B8;
+$silver-line-secondary: #EBEBEB;
+$secondary-silver: #DFDFDF;
+$deep-silver: #C4C4C4;
+$tertiary-silver: #ECEBEB;
+$purple: #7B61FF;
+$brown: #220000;
+
 .btn {
     text-decoration: none;
     width: auto;
@@ -27,8 +42,8 @@
     justify-content: center;
     width: 82px;
     height: 33px;
-    color: white;
-    background-color: #000000;
+    color: $white;
+    background-color: $black;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
@@ -37,30 +52,30 @@
 
 // botões hero section
 .btn-trial{
-    color: white;
-    background-color: #0064DA;
+    color: $white;
+    background-color: $blue;
     border: none;
 }
 
 .btn-trial:hover{
-    background-color: #000000;
+    background-color: $black;
 }
 
 .btn-trial:focus{
-    background-color: #000000;
+    background-color: $black;
 }
 
 .btn-learnmore{
-    color: white;
-    background-color: #0064DA;
+    color: $white;
+    background-color: $blue;
     border: none;
 }
 .btn-learnmore:hover{
-    background-color: #000000;
+    background-color: $black;
 }
 
 .btn-learnmore:focus{
-    background-color: #000000;
+    background-color:$black;
 }
 
 
@@ -68,8 +83,8 @@
 .btn-video {
     position:absolute;
     padding: 8px 16px;
-    background-color: #0064DA;
-    color: #FFFFFF;
+    background-color: $blue;
+    color: $white;
     border: none;
     font-size: 14px;
     font-weight: 400;
@@ -78,7 +93,7 @@
 
 .btn-signin {
     text-decoration: none;
-    color: #000000
+    color: $black
 }
 // botoes articles header
 .btn-development {
@@ -88,20 +103,20 @@
     height: 20px;
     font-size: 10px;
     font-weight: 400;
-    background-color: #FFFFFF;
-    border: 0.5px solid #ECEBEB; 
+    background-color: $white;
+    border: 0.5px solid $tertiary-silver; 
 }
 .btn-development:hover {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #ECEBEB; 
+    background-color: $blue;
+    color: $white;
+    border: 0.5px solid $tertiary-silver; 
 }
 .btn-development:focus {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #7B61FF; 
+    background-color: $blue;
+    color: $white;
+    border: 0.5px solid $purple; 
 }
 
 .btn-blockchain {
@@ -111,20 +126,20 @@
     height: 20px;
     font-size: 10px;
     font-weight: 400;
-    background-color: #FFFFFF;
-    border: 0.5px solid #ECEBEB; 
+    background-color: $white;
+    border: 0.5px solid $tertiary-silver; 
 }
 .btn-blockchain:hover {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #ECEBEB; 
+    background-color: $blue;
+    color: $white;
+    border: 0.5px solid $tertiary-silver; 
 }
 .btn-blockchain:focus {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #7B61FF; 
+    background-color: $blue;
+    color: $white;
+    border: 0.5px solid $purple; 
 }
 
 
@@ -135,21 +150,20 @@
     height: 20px;
     font-size: 10px;
     font-weight: 400;
-    background-color: #FFFFFF;
-    border: 0.5px solid #ECEBEB; 
+    background-color: $white;
+    border: 0.5px solid $tertiary-silver; 
 }
 
 .btn-nextjs:hover {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #ECEBEB; 
+    background-color: $blue;
+    color: $white;
+    border: 0.5px solid $tertiary-silver; 
 }
 .btn-nextjs:focus {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #7B61FF; 
+    background-color: $blue;
+    border: 0.5px solid $purple; 
 }
 
 
@@ -160,20 +174,20 @@
     height: 20px;
     font-size: 10px;
     font-weight: 400;
-    background-color: #FFFFFF;
-    border: 0.5px solid #ECEBEB; 
+    background-color: $white;
+    border: 0.5px solid $tertiary-silver; 
 }
 .btn-reactjs:hover {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #ECEBEB; 
+    background-color: $blue;
+    color: $white;
+    border: 0.5px solid $tertiary-silver; 
 }
 .btn-reactjs:focus {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #7B61FF; 
+    background-color: $blue;
+    color: $white;
+    border: 0.5px solid $purple; 
 }
 
 
@@ -185,20 +199,20 @@
     height: 18px;
     font-size: 8px;
     font-weight: 400;
-    background-color: #FFFFFF;
-    border: 0.5px solid #ECEBEB;
+    background-color: $white;
+    border: 0.5px solid $tertiary-silver;
 }
 .btn-development-secundary:hover {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #ECEBEB; 
+    background-color: $blue;
+    color: $white;
+    border: 0.5px solid $tertiary-silver; 
 }
 .btn-development-secundary:focus {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #7B61FF; 
+    background-color: $blue;
+    color: $white;
+    border: 0.5px solid $purple; 
 }
 
 
@@ -209,20 +223,20 @@
     height: 18px;
     font-size: 8px;
     font-weight: 400;
-    background-color: #FFFFFF;
-    border: 0.5px solid #ECEBEB;
+    background-color: $white;
+    border: 0.5px solid $tertiary-silver;
 }
 .btn-blockchain-secundary:hover {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #ECEBEB; 
+    background-color: $blue;
+    color: $white;
+    border: 0.5px solid $tertiary-silver; 
 }
 .btn-blockchain-secundary:focus {
     
-    background-color: #0064DA;
-    color: #FFFFFF;
-    border: 0.5px solid #7B61FF; 
+    background-color: $blue;
+    color: $white;
+    border: 0.5px solid $purple\; 
 }
 
 // botão advertising section
@@ -233,8 +247,8 @@
     height: 33px;
     font-size: 14px;
     font-weight: 400;
-    color: #0064DA;
-    background-color: #FFFFFF;
+    color: $blue;
+    background-color: $white;
     padding: 8px 16px 8px 16px;
     border: none;
     cursor: pointer;

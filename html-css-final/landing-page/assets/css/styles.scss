@@ -2,6 +2,23 @@
 
 @import "./buttons.css";
 
+// cores 
+$blue: #0064DA;
+$baby-blue: #A5CEFF;
+$black: #000000;
+$white: #FFFFFF;
+$dropshadow: #051449;
+$dropshadow-secundary: #0514491A;
+$primary-silver: #F5F5F5;
+$silver-line: #B8B8B8;
+$silver-line-secondary: #EBEBEB;
+$secondary-silver: #DFDFDF;
+$deep-silver: #C4C4C4;
+$tertiary-silver: #ECEBEB;
+$purple: #7B61FF;
+$brown: #220000;
+
+
 body {
     max-width: 100vw;
     padding: 0px;
@@ -18,7 +35,7 @@ header {
     .headerDesktop-container {
         display: flex;
         align-items: center;
-        border-bottom: solid 1px #DFDFDF;
+        border-bottom: solid 1px $secondary-silver;
         padding: 8px 16px 8px 16px;
     }
     .headerDesktop-logo {
@@ -39,7 +56,7 @@ header {
                     text-decoration: none;
                     font-size: 14px;
                     font-weight: 400;
-                    color: #000000;
+                    color: $black;
                 }
             }
         }
@@ -108,7 +125,7 @@ section{
 }
 .about-section {
     text-align: center;
-    background-color:#F5F5F5;
+    background-color: $primary-silver;
     padding-top: 3%;
     padding-bottom: 3%;
     .about-section-container {
@@ -121,7 +138,7 @@ section{
             position: absolute;
             top: -40px;
             width: 100px;
-            border: 1px solid #B8B8B8;
+            border: 1px solid $silver-line;
             transform: rotate(90deg);
 
         }  
@@ -140,7 +157,7 @@ section{
             img{
                 width: 632px;
                 height: auto;
-                box-shadow: 0px 2px 10px 2px #0514491A;
+                box-shadow: 0px 2px 10px 2px $dropshadow;
 
             }
         }
@@ -154,7 +171,7 @@ section{
     flex-direction: column;
     padding-bottom: 2%;
     padding-top: 2%;
-    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #220000 50%, #220000 100%);
+    background: linear-gradient(to bottom, $white 0%, $white 50%, $brown 50%, $brown 100%);
 }
 .cards-section-container{
     display: flex;
@@ -185,7 +202,7 @@ section{
     gap: 10px;
     .card {
         cursor: pointer;
-        color:#000000;
+        color: $black;
         text-decoration: none;
         box-sizing: content-box;
         height: 145px;
@@ -194,14 +211,14 @@ section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #FFFFFF;
-        border: 1px solid #DFDFDF;
+        background-color: $white;
+        border: 1px solid $secondary-silver;
         border-radius: 4px;
     
         .circle {
           width: 44px;
           height: 44px;
-          background-color: blue;
+          background-color: $blue;
           border-radius: 50%;
         }
         h4{
@@ -220,17 +237,17 @@ section{
         }
       }
     .card:hover {
-        background-color: #0064DA;
-        border: 1px solid #0064DA;
+        background-color: $blue;
+        border: 1px solid $blue;
         transform: translateY(-5px);
         .circle{
-            background-color: #FFFFFF;
+            background-color: $white;
         }
         h4{
-            color:#FFFFFF
+            color: $white;
         }
         p{
-            color: #FFFFFF;
+            color: $white;
         }
     }
   }
@@ -277,7 +294,7 @@ section{
         .wrapper-box-img {
           width: 218px;
           height: 121px;
-          background-color: silver;
+          background-color: $deep-silver;
         }
         .wrapper-box-buttons{
             display: flex;
@@ -297,7 +314,7 @@ section{
                 width: 20px;
                 height: 20px;
                 border-radius: 13px;
-                background-color: silver;
+                background-color: $deep-silver;
             }
             h6 {
                 font-size: 8px;
@@ -319,12 +336,12 @@ section{
         box-sizing: border-box;
         width: 90%;
         height: 202px;
-        background-color: #0064DA;
+        background-color: $blue;
         padding-left: 3%;
         padding-right: 3%;
         p{
             font-size: 30px;
-            color: #FFFFFF;
+            color: $white;
             font-weight: 400;
         }
     }
@@ -337,7 +354,7 @@ footer {
     padding-top: 1%;
     padding-left: 1%;
     padding-right: 1%;
-    border-top: solid 1px #DFDFDF;
+    border-top: solid 1px $secondary-silver;
     
     .footer-left{
         display: flex;
@@ -357,19 +374,19 @@ footer {
         width: 241px;
         height: 33px;
         box-sizing: border-box;
-        border: 1px solid #EBEBEB;
+        border: 1px solid $silver-line-secondary;
         border-radius: 4px;
         font-size: 14px;
         font-weight: 400;
-        color: #000000;
+        color: $black,;
       }
 
       input[type=submit] {
         width: 99px;
         height: 33px;
         box-sizing: border-box;
-        background-color:  #000000;
-        color: #FFFFFF;
+        background-color:  $black;
+        color: $white;
         font-size: 14px;
         font-weight: 400;
         cursor: pointer;
@@ -389,7 +406,7 @@ footer {
             font-weight: 400;
         }
         a{
-            color:#000000;
+            color: $black;
             text-decoration: none;
             font-size: 14px;
             font-weight: 400;
@@ -407,7 +424,7 @@ footer {
             font-weight: 400;
         }
         a{
-            color:#000000;
+            color: $black;
             text-decoration: none;
             font-size: 14px;
             font-weight: 400;
@@ -479,7 +496,7 @@ footer {
     }
     .about-section {
         text-align: center;
-        background-color:#F5F5F5;
+        background-color: $primary-silver;
         padding-top: 3%;
         padding-bottom: 3%;
         .about-section-container {
@@ -492,7 +509,7 @@ footer {
                 position: absolute;
                 top: -40px;
                 width: 100px;
-                border: 1px solid #B8B8B8;
+                border: 1px solid $silver-line;
                 transform: rotate(90deg);
     
             }  
@@ -512,7 +529,9 @@ footer {
                 img{
                     width: 93%;
                     height: auto;
-                    box-shadow: 0px 2px 10px 2px #0514491A;
+                    border-top: solid 1px $baby-blue;
+                    box-shadow: 0px 2px 10px 2px $dropshadow-secundary;
+                    
     
                 }
             }
@@ -547,7 +566,7 @@ footer {
         flex-direction: column;
         padding-bottom: 2%;
         padding-top: 7%;
-        background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #F5F5F5 50%, #F5F5F5 100%);
+        background: linear-gradient(to bottom, $white 0%, $white 50%, $primary-silver 50%, $primary-silver 100%);
     }
     .cards-section {
         width: 354px;
@@ -558,7 +577,7 @@ footer {
         gap: 10px;
         .card {
             cursor: pointer;
-            color:#000000;
+            color: $black;
             text-decoration: none;
             box-sizing: content-box;
             height: 149px;
@@ -567,14 +586,14 @@ footer {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #FFFFFF;
-            border: 1px solid #DFDFDF;
+            background-color: $white;
+            border: 1px solid $secondary-silver;
             border-radius: 4px;
         
             .circle {
               width: 44px;
               height: 44px;
-              background-color: blue;
+              background-color: $blue;
               border-radius: 50%;
             }
             h4{
@@ -639,7 +658,7 @@ footer {
                 .wrapper-box-img {
                   width: 100%;
                   height: 121px;
-                  background-color: silver;
+                  background-color: $deep-silver;
                 }
                 .wrapper-box-buttons{
                     display: flex;
@@ -659,7 +678,7 @@ footer {
                         width: 20px;
                         height: 20px;
                         border-radius: 13px;
-                        background-color: silver;
+                        background-color: $deep-silver;
                     }
                     h6 {
                         font-size: 8px;
@@ -682,11 +701,11 @@ footer {
                 justify-content: center;
                 gap: 10px;
                 box-sizing: border-box;
-                background-color: #0064DA;
+                background-color: $blue;
                 p{
                     font-size: 30px;
                     line-height: 36px;
-                    color: #FFFFFF;
+                    color: $white;
                     font-weight: 400;
                     margin: 0px;
                 }
@@ -698,7 +717,7 @@ footer {
             flex-direction: column;
             padding-bottom: 2%;
             padding-top: 1%;
-            border-top: solid 1px #DFDFDF;
+            border-top: solid 1px $secondary-silver;
             
             .footer-left{
                 display: flex;
@@ -724,19 +743,19 @@ footer {
                 width: 241px;
                 height: 33px;
                 box-sizing: border-box;
-                border: 1px solid #EBEBEB;
+                border: 1px solid $silver-line-secondary;
                 border-radius: 4px;
                 font-size: 14px;
                 font-weight: 400;
-                color: #000000;
+                color: $black;
               }
         
               input[type=submit] {
                 width: 99px;
                 height: 33px;
                 box-sizing: border-box;
-                background-color:  #000000;
-                color: #FFFFFF;
+                background-color:  $black;
+                color: $white;
                 font-size: 14px;
                 font-weight: 400;
                 cursor: pointer;
@@ -764,7 +783,7 @@ footer {
                     font-weight: 400;
                 }
                 a{
-                    color:#000000;
+                    color: $black;
                     text-decoration: none;
                     font-size: 14px;
                     font-weight: 400;
@@ -786,7 +805,7 @@ footer {
                     font-weight: 400;
                 }
                 a{
-                    color:#000000;
+                    color: $black;
                     text-decoration: none;
                     font-size: 14px;
                     font-weight: 400;

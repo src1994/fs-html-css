@@ -29,7 +29,7 @@
   justify-content: center;
   width: 82px;
   height: 33px;
-  color: white;
+  color: #FFFFFF;
   background-color: #000000;
   font-size: 14px;
   font-weight: 400;
@@ -38,7 +38,7 @@
 }
 
 .btn-trial {
-  color: white;
+  color: #FFFFFF;
   background-color: #0064DA;
   border: none;
 }
@@ -52,7 +52,7 @@
 }
 
 .btn-learnmore {
-  color: white;
+  color: #FFFFFF;
   background-color: #0064DA;
   border: none;
 }
