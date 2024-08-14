@@ -99,6 +99,7 @@ section {
 }
 
 .about-section {
+  width: 100%;
   text-align: center;
   background-color: #F5F5F5;
   padding-top: 3%;
@@ -138,6 +139,7 @@ section {
 }
 
 .section-container {
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -460,6 +462,7 @@ footer .footer-rigth {
     background-color: #F5F5F5;
     padding-top: 3%;
     padding-bottom: 3%;
+    width: 100%;
   }
   .about-section .about-section-container {
     display: flex;
